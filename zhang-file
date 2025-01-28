@@ -1,1 +1,8 @@
-
+Resources:
+  myVPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 10.3.0.0/16
+      Tags:
+      - Key: Name
+        Value: vpc-template
